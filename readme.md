@@ -9,19 +9,20 @@ Row is xcode(swift) version for application build.
 Column is swift version for framework build. 
 
 
-|  Xcode     | swift version | 3.1 | 4.0 | 4.0.2 | 4.0.3 | 4.1 | 4.1.2 | 4.2 | 4.2.1 |
-|------------|---------------|-----|-----|-------|-------|-----|-------|-----|-------|
-| Xcode8.3.3 | 3.1           | OK  | NG  |  NG   |  NG   | NG  |  NG   | NG  |  NG   |
-| Xcode9.0   | 4.0           | NG  | OK  |  NG   |  NG   | NG  |  NG   | NG  |  NG   |
-| Xcode9.0.1 | 4.0           | NG  | OK  |  NG   |  NG   | NG  |  NG   | NG  |  NG   |
-| Xcode9.1   | 4.0.2         | NG  | NG  |  OK   |  OK   | NG  |  NG   | NG  |  NG   |
-| Xcode9.2   | 4.0.3         | NG  | NG  |  OK   |  OK   | NG  |  NG   | NG  |  NG   |
-| Xcode9.3   | 4.1           | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   |
-| Xcode9.3.1 | 4.1           | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   |
-| Xcode9.4   | 4.1.2         | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   |
-| Xcode9.4.1 | 4.1.2         | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   |
-| Xcode10.0  | 4.2           | NG  | NG  |  NG   |  NG   | NG  |  NG   | OK  |  OK   |
-| Xcode10.1  | 4.2.1         | NG  | NG  |  NG   |  NG   | NG  |  NG   | OK  |  OK   |
+|  Xcode     | swift version | 3.1 | 4.0 | 4.0.2 | 4.0.3 | 4.1 | 4.1.2 | 4.2 | 4.2.1 | 5.0 |
+|------------|---------------|-----|-----|-------|-------|-----|-------|-----|-------|-----|
+| Xcode8.3.3 | 3.1           | OK  | NG  |  NG   |  NG   | NG  |  NG   | NG  |  NG   | NG  |
+| Xcode9.0   | 4.0           | NG  | OK  |  NG   |  NG   | NG  |  NG   | NG  |  NG   | NG  |
+| Xcode9.0.1 | 4.0           | NG  | OK  |  NG   |  NG   | NG  |  NG   | NG  |  NG   | NG  |
+| Xcode9.1   | 4.0.2         | NG  | NG  |  OK   |  OK   | NG  |  NG   | NG  |  NG   | NG  |
+| Xcode9.2   | 4.0.3         | NG  | NG  |  OK   |  OK   | NG  |  NG   | NG  |  NG   | NG  |
+| Xcode9.3   | 4.1           | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   | NG  |
+| Xcode9.3.1 | 4.1           | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   | NG  |
+| Xcode9.4   | 4.1.2         | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   | NG  |
+| Xcode9.4.1 | 4.1.2         | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   | NG  |
+| Xcode10.0  | 4.2           | NG  | NG  |  NG   |  NG   | NG  |  NG   | OK  |  OK   | NG  |
+| Xcode10.1  | 4.2.1         | NG  | NG  |  NG   |  NG   | NG  |  NG   | OK  |  OK   | NG  |
+| Xcode10.2beta2 | 5.0(ABI-0.6) | NG  | NG  |  NG   |  NG   | NG  |  NG   | NG  |  NG   | OK  |
 
 
 # Swift versions in Xcode bundle
@@ -92,3 +93,11 @@ Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)
 Target: x86_64-apple-darwin18.0.0
 ```
 
+
+```
+>
+~/Applications/Xcode.10.2-beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -v
+Apple Swift version 5.0 (swiftlang-1001.0.45.7 clang-1001.0.37.7)
+Target: x86_64-apple-darwin18.2.0
+ABI version: 0.6
+```
