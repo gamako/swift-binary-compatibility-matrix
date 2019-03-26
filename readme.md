@@ -22,7 +22,7 @@ Column is swift version for framework build.
 | Xcode9.4.1 | 4.1.2         | NG  | NG  |  NG   |  NG   | OK  |  OK   | NG  |  NG   | NG  |
 | Xcode10.0  | 4.2           | NG  | NG  |  NG   |  NG   | NG  |  NG   | OK  |  OK   | NG  |
 | Xcode10.1  | 4.2.1         | NG  | NG  |  NG   |  NG   | NG  |  NG   | OK  |  OK   | NG  |
-| Xcode10.2beta2 | 5.0(ABI-0.6) | NG  | NG  |  NG   |  NG   | NG  |  NG   | NG  |  NG   | OK  |
+| Xcode10.2  | 5.0           | NG  | NG  |  NG   |  NG   | NG  |  NG   | NG  |  NG   | OK  |
 
 
 # Swift versions in Xcode bundle
@@ -93,11 +93,8 @@ Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)
 Target: x86_64-apple-darwin18.0.0
 ```
 
-
 ```
->
-~/Applications/Xcode.10.2-beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -v
-Apple Swift version 5.0 (swiftlang-1001.0.45.7 clang-1001.0.37.7)
+> /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)
 Target: x86_64-apple-darwin18.2.0
-ABI version: 0.6
 ```
